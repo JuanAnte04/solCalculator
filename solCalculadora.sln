@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appConsCalculadora", "appConsCalculator\appConsCalculadora.csproj", "{AC54302D-0030-4EF4-9962-F22E0CE47562}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A14ED652-2A30-44A4-99C1-8B816DE83017} = {A14ED652-2A30-44A4-99C1-8B816DE83017}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libServices", "..\Services\libServices\libServices.csproj", "{A14ED652-2A30-44A4-99C1-8B816DE83017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC54302D-0030-4EF4-9962-F22E0CE47562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC54302D-0030-4EF4-9962-F22E0CE47562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC54302D-0030-4EF4-9962-F22E0CE47562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC54302D-0030-4EF4-9962-F22E0CE47562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14ED652-2A30-44A4-99C1-8B816DE83017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14ED652-2A30-44A4-99C1-8B816DE83017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14ED652-2A30-44A4-99C1-8B816DE83017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14ED652-2A30-44A4-99C1-8B816DE83017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B9B132A-FDCE-48BC-BBFF-B97EF7D25DE5}
+	EndGlobalSection
+EndGlobal
