@@ -1,5 +1,4 @@
-﻿using libServices;
-namespace appCalculadora
+﻿namespace appCalculadora
 {
     class Program
     {
